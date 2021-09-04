@@ -1,6 +1,7 @@
 module.exports = {
   title: "hahahaah",
   description: "查阅知识",
+  base: "/docs/",
   head: [
     ['link', { rel: 'icon', href: '/assets/img/favicon.png' }],
     ['meta', { name: 'author', content: '阿松大' }],

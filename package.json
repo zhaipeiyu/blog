@@ -6,11 +6,12 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "docs:dev": "vuepress dev docs",
-    "docs:build": "vuepress build docs"
+    "docs:build": "vuepress build docs",
+    "deploy": "bash deploy.sh"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/zhaipeiyu/myblog.git"
+    "url": "git+https://github.com/zhaipeiyu/blog.git"
   },
   "keywords": [],
   "author": "",
