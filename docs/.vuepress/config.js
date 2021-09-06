@@ -1,5 +1,5 @@
 module.exports = {
-  title: "hahahaah",
+  title: "学无止境",
   description: "查阅知识",
   base: "/docs/",
   head: [
@@ -8,8 +8,13 @@ module.exports = {
     ['meta', { name: 'keywords', content: 'ccc' }],
   ],
   themeConfig: {
+    type: 'blog',
     logo: "/assets/img/hxw.jpg",
-
+    authorAvatar: '/assets/img/hxw.jpg',
+    bgImageStyle: {
+      height: '350px',
+      width: '100%'
+    },
     // navbar: false,
     // 添加导航栏
     nav: [
@@ -25,6 +30,8 @@ module.exports = {
       },
     ],
     // 为以下路由添加侧边栏
-    sidebar: ['/', '/about', '/react']
+    sidebar: ['/', '/about', '/react'],
+    theme: 'reco',
+
   }
 }
